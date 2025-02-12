@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: refresh auth
-        run: chmod -R 777 /home/github_runner/AIGC_backend/AIGC_backend
+        run: sudo chmod -R 777 /home/github_runner/AIGC_backend/AIGC_backend
 
       - uses: actions/checkout@v4
 
