@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-ag1vrnf(lme1t(59916h9t_ura0zg+5vju7r-0mi&7lv6qonq$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aigc.foxace.fun']
 
 
 # Application definition
