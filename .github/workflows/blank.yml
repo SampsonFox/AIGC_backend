@@ -31,7 +31,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          chmod -R 777 /home/github_runner/AIGC_backend/AIGC_backend
+          sudo chmod -R 777 /home/github_runner/AIGC_backend/AIGC_backend
           docker restart aigc_backend
 
       # Runs a set of commands using the runners shell

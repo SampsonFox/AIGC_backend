@@ -67,7 +67,7 @@
       <workItem from="1739274128854" duration="106000" />
       <workItem from="1739274240258" duration="5486000" />
       <workItem from="1739357555540" duration="2034000" />
-      <workItem from="1739360056308" duration="2536000" />
+      <workItem from="1739360056308" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739363923166</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Django脚手架">
+      <option name="closed" value="true" />
+      <created>1739364705320</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739364705320</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
