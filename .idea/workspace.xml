@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d027c2-5ff1-4d26-a992-c2830d8e2711" name="Changes" comment="Django脚手架">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/blank.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/blank.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aigcBackend/backend/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aigcBackend/backend/url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +42,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.api.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "S:/QQbot",
+    "last_opened_file_path": "S:/selfWork/20250214_参考代码",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +75,13 @@
       <workItem from="1739274240258" duration="5486000" />
       <workItem from="1739357555540" duration="2034000" />
       <workItem from="1739360056308" duration="3319000" />
-      <workItem from="1739364934285" duration="776000" />
+      <workItem from="1739364934285" duration="2088000" />
+      <workItem from="1739443815061" duration="4000" />
+      <workItem from="1739443955661" duration="144000" />
+      <workItem from="1739448435957" duration="3629000" />
+      <workItem from="1739528446111" duration="3533000" />
+      <workItem from="1739592762863" duration="227000" />
+      <workItem from="1739593004680" duration="8054000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -178,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739364758348</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Django脚手架">
+      <option name="closed" value="true" />
+      <created>1739365757697</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739365757697</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +218,8 @@
     <MESSAGE value="新增启动脚本" />
     <MESSAGE value="Django脚手架" />
     <option name="LAST_COMMIT_MESSAGE" value="Django脚手架" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AIGC_backend$api.coverage" NAME="api Coverage Results" MODIFIED="1739603597732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aigcBackend/backend" />
   </component>
 </project>
