@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.authtoken.views import obtain_auth_token
+from .login import login,get_curUserinfo
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('aigc/api-token-auth/', obtain_auth_token, name='api_token_auth'),
+    path('aigc/api-token-auth/', login, name='api_token_auth'),
+    path('aigc/get-userinfo/', get_curUserinfo, name='get-userinfo'),
     path('aigc/', include('backend.url')),
 ]

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d027c2-5ff1-4d26-a992-c2830d8e2711" name="Changes" comment="前后端联调">
+      <change afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/url.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.api.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "S:/selfWork/20250214_参考代码",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.api.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/selfWork/20250214_参考代码&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +84,16 @@
       <workItem from="1739448435957" duration="3629000" />
       <workItem from="1739528446111" duration="3533000" />
       <workItem from="1739592762863" duration="227000" />
-      <workItem from="1739593004680" duration="9353000" />
+      <workItem from="1739593004680" duration="9849000" />
+      <workItem from="1739786139119" duration="1470000" />
+      <workItem from="1739787820431" duration="1933000" />
+      <workItem from="1739962263805" duration="21000" />
+      <workItem from="1740390529862" duration="599000" />
+      <workItem from="1741604953185" duration="5386000" />
+      <workItem from="1741693331678" duration="4308000" />
+      <workItem from="1741865310206" duration="6053000" />
+      <workItem from="1742012410033" duration="9912000" />
+      <workItem from="1742102290379" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -199,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739608626189</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="前后端联调">
+      <option name="closed" value="true" />
+      <created>1739611221730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739611221730</updated>
+    </task>
+    <task id="LOCAL-00017" summary="前后端联调">
+      <option name="closed" value="true" />
+      <created>1739611404082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739611404082</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
