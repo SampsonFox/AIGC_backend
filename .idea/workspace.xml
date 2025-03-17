@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d027c2-5ff1-4d26-a992-c2830d8e2711" name="Changes" comment="前后端联调">
-      <change afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/login.py" afterDir="false" />
+    <list default="true" id="43d027c2-5ff1-4d26-a992-c2830d8e2711" name="Changes" comment="初步闭环">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/aigcBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aigcBackend/backend/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/aigcBackend/backend/url.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +87,9 @@
       <workItem from="1741693331678" duration="4308000" />
       <workItem from="1741865310206" duration="6053000" />
       <workItem from="1742012410033" duration="9912000" />
-      <workItem from="1742102290379" duration="2478000" />
+      <workItem from="1742102290379" duration="4140000" />
+      <workItem from="1742208531374" duration="31000" />
+      <workItem from="1742212203750" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -231,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739611404082</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="初步闭环">
+      <option name="closed" value="true" />
+      <created>1742105692765</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742105692765</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +258,8 @@
     <MESSAGE value="新增启动脚本" />
     <MESSAGE value="Django脚手架" />
     <MESSAGE value="前后端联调" />
-    <option name="LAST_COMMIT_MESSAGE" value="前后端联调" />
+    <MESSAGE value="初步闭环" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步闭环" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AIGC_backend$api.coverage" NAME="api Coverage Results" MODIFIED="1739603597732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aigcBackend/backend" />

@@ -16,8 +16,6 @@ import os, json,datetime
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -63,6 +61,7 @@ SIMPLE_JWT = {
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3001',
     'http://127.0.0.1:3001',
+    'http://124.221.77.188:9001',
     # 如果有其他前端应用的 URL，也可以一并添加
 ]
 
