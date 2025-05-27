@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信登录示例</title>
+
+    <!-- 引入微信登录JS -->
+    <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+
+    <style>
+        /* 容器样式 */
+        #wx_login_container {
+            width: 320px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* 自定义样式示例（可选） */
+        .custom-login-title {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 登录容器 -->
+    <div class="custom-login-title">使用微信扫码登录</div>
+    <div id="wx_login_container"></div>
+    <script>
+        // 微信登录配置
+        new WxLogin({
+            self_redirect: false,    // 在顶层窗口跳转
+            id: "wx_login_container", // 容器ID
+            appid: "wx12b75947931a04ec",     // 替换为你的AppID
+            scope: "snsapi_login",   // 固定值
+            redirect_uri: encodeURIComponent("https://yuanbao.tencent.com/scan/nonce%3DEzWRNQRiiHC5sdBn"), // 替换为你的回调地址
+            state: "RANDOM_STATE_" + Math.random().toString(36).substr(2), // 随机state参数
+            style: "black",          // 文字颜色（black/white）
+            href: "",                // 自定义样式URL（可选）
+            stylelite: 1,            // 使用新版UI样式
+            onReady: function(isReady) {
+                if(isReady) {
+                    console.log("微信登录组件加载完成");
+                }
+            }
+        });
+    </script>
+<!--    <iframe src="https://open.weixin.qq.com/connect/qrconnect?appid=wx12b75947931a04ec&amp;scope=snsapi_login&amp;redirect_uri=https%3A%2F%2Fyuanbao.tencent.com%2Fscan%3Fnonce%3DEzWRNQRiiHC5sdBn&amp;state=wechat_login&amp;login_type=jssdk&amp;self_redirect=false&amp;styletype=&amp;sizetype=&amp;bgcolor=&amp;rst=&amp;href=data:text/css;base64,LmltcG93ZXJCb3ggLnRpdGxlIHtkaXNwbGF5OiBub25lO30gLmltcG93ZXJCb3ggLnFyY29kZSB7bWFyZ2luLXRvcDogMDsgd2lkdGg6IDEwMCU7IGJvcmRlcjogMDsgdmVydGljYWwtYWxpZ246IHRvcDt9IC5pbXBvd2VyQm94IC5zdGF0dXMuc3RhdHVzX2Jyb3dzZXIge2Rpc3BsYXk6IG5vbmU7fSAuaW1wb3dlckJveCAuc3RhdHVzIHtwYWRkaW5nOiAwOyB0ZXh0LWFsaWduOiBjZW50ZXI7fSAuaW1wb3dlckJveCAuc3RhdHVzX2ljb24ge2Rpc3BsYXk6IGJsb2NrIWltcG9ydGFudDsgcG9zaXRpb246IGFic29sdXRlOyB0b3A6IDUwdnc7IGxlZnQ6IDUwdnc7IG1hcmdpbjogLTIycHggMCAwIC0yMnB4OyBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOyBib3JkZXItcmFkaXVzOiAxMDAlfSAuaW1wb3dlckJveCAuc3RhdHVzX2ZhaWwgaDQge2NvbG9yOiAjZDU0OTQxO30gLmltcG93ZXJCb3ggLnN0YXR1c19zdWNjIGg0IHtjb2xvcjogIzIwQzU3RH0gLmltcG93ZXJCb3ggLnN0YXR1c190eHQgcCB7ZGlzcGxheTogbm9uZX0gLmltcG93ZXJCb3ggLmluZm8ge3dpZHRoOiAxMDAlfQ==" frameborder="0" scrolling="no" width="300px" height="400px"></iframe>-->
+
+</body>
+</html>

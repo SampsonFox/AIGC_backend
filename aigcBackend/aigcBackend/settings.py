@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'rest_framework',
-    "backend"
+    "backend",
+    "drf_yasg",
 ]
 
 REST_FRAMEWORK = {
@@ -50,7 +51,10 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated'    # 默认权限为验证用户
     ],
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
+
+
 SIMPLE_JWT = {
     # token有效时长
     'ACCESS_TOKEN_LIFETIME': datetime.timedelta(days=1),

@@ -87,8 +87,7 @@ def stream_response(request,con_uuid):
                     continue
 
             # print('结束了')
-            sen_res = Sentence(sentence_content=cur_msg,
-                               role=1)
+            sen_res = Sentence(sentence_content=cur_msg,role=1)
             sen_res.save()
 
             cur_con.sentence_scope.add(sen_res)

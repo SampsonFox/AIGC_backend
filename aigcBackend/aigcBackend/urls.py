@@ -18,9 +18,17 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.authtoken.views import obtain_auth_token
 from .login import login,get_curUserinfo
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+schema_view = get_schema_view(
+    openapi.Info(title="API 文档", default_version='v1'),
+    public=True,
+)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('swagger/', schema_view.with_ui('swagger')),
     path('aigc/api-token-auth/', login, name='api_token_auth'),
     path('aigc/get-userinfo/', get_curUserinfo, name='get-userinfo'),
     path('aigc/', include('backend.url')),
